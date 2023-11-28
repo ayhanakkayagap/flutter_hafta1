@@ -6,7 +6,9 @@ class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text("Text Widget"),
+        ),
         body: Center(
           child: Text(
             'Hello! How are you Muhammed?',
